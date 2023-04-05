@@ -11,7 +11,7 @@ public class App {
 
         Scanner teclado = new Scanner(System.in);
         System.out.print("Coloque o raio do circulo: ");
-        circulo = teclado.nextInt();
+        circulo = teclado.nextDouble();
         teclado.close();
 
         resultado = pi * (circulo*circulo);
